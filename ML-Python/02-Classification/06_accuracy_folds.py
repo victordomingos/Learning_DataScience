@@ -1,9 +1,8 @@
 import matplotlib.pyplot as plt
-import seaborn as sns
+from sklearn import model_selection as skms
 from sklearn import (datasets,
                      naive_bayes,
                      neighbors)
-from sklearn import model_selection as skms
 
 iris = datasets.load_iris()
 
